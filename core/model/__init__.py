@@ -1,9 +1,5 @@
 __all__ = (
-    "db_helper",
-    "Base",
-    "User",
+    "UserDTO",
 )
 
-from .db_helper import db_helper
-from .base import Base
-from .base import User
+from .dto import UserDTO

@@ -4,7 +4,7 @@ import uvicorn
 from fastapi import FastAPI
 
 from core.config import settings
-from core.model import db_helper, Base
+from core.schemas import db_helper, Base
 
 
 @asynccontextmanager
