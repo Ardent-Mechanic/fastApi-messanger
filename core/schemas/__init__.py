@@ -1,5 +1,9 @@
 __all__ = (
-    "UserDTO",
+    "UserBase",
+    "RoleBase",
+    "UserRoleBase",
 )
 
-from .dto import UserDTO
+from .user import UserBase
+from .role import RoleBase
+from .user_role import UserRoleBase
