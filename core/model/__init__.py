@@ -1,9 +1,9 @@
 __all__ = (
     "db_helper",
     "Base",
-    "User",
-    "Role",
-    "UserRole",
+    # "User",
+    # "Role",
+    # "UserRole",
 )
 
 from .db_helper import db_helper

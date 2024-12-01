@@ -1,7 +1,7 @@
 from sqlalchemy import String
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from core.model import Base, User
+from core.model import Base
 
 
 class Role(Base):
